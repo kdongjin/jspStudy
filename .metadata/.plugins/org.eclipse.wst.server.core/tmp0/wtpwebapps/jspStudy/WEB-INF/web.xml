@@ -41,14 +41,14 @@
     <servlet-name>hello</servlet-name>
     <url-pattern>/hello.do</url-pattern>
   </servlet-mapping>
- <!--  <servlet>
+  <!-- <servlet>
     <description></description>
-    <display-name>logoutServlet</display-name>
-    <servlet-name>logoutServlet</servlet-name>
-    <servlet-class>co.kh.dev.login.LogoutServlet</servlet-class>
+    <display-name>testDB</display-name>
+    <servlet-name>testDB</servlet-name>
+    <servlet-class>co.kh.dev.TestDB</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>logoutServlet</servlet-name>
-    <url-pattern>/logoutServlet.do</url-pattern>
+    <servlet-name>testDB</servlet-name>
+    <url-pattern>/testDB.do</url-pattern>
   </servlet-mapping> -->
 </web-app>
