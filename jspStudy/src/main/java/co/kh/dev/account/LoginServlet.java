@@ -18,7 +18,7 @@ public class LoginServlet extends HttpServlet {
 
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) {
 	    //1.사용자정보가져온다 2.디비조회
-		//3.화면출석
+		//3.화면을 출력한다. 
 		PrintWriter out = null;
 	    response.setContentType("text/html;charset=UTF-8");
 	    try {
