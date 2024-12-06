@@ -15,14 +15,17 @@ public class LogoutServlet extends HttpServlet {
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) {
 		//1. 사용자정보가져온다(세션에서 가져온다), 2. 데이타베이스 , 3. 화면을 설계한다.(페이지이동 Redirect, forward)
 		//1.1 request.getSession(false) 세션값이 없으면 null 리턴한다.
-		HttpSession session = request.getSession(false);
 		try {
+			HttpSession session = request.getSession(false);
 			if (session != null) {
 				session.invalidate();
 			}
 			response.sendRedirect("loginServlet.do");
 		} catch (IOException e) {
+			//에러메세지를 보고 처리하면된다.
 			e.printStackTrace();
+		} finally {
+			
 		}
 	}
 

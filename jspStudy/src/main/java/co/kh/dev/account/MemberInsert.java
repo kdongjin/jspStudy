@@ -25,7 +25,8 @@ public class MemberInsert extends HttpServlet {
 	public MemberInsert() {
 		super();
 	}
-
+	
+	//3가지 방식 1. 사용자요청데이타를 읽어온다. 2.curd  3.화면을 설계한다.
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		// 1. 값을 읽어온다
 		request.setCharacterEncoding("UTF-8");
@@ -55,7 +56,7 @@ public class MemberInsert extends HttpServlet {
 				out.println("<h1 align= 'center'>회원가입이 완료되었습니다.</h1>");
 				out.println("<table align='center' width='300' border='1'>");
 				out.println("<tr>");
-				out.println("<td align=\"center\">");
+				out.println("<td align='center'>");
 				out.println("이름 = " + name);
 				out.println("</td>");
 				out.println("</tr>");
@@ -107,10 +108,12 @@ public class MemberInsert extends HttpServlet {
 		}
 	}
 
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		processRequest(request, response);
 	}
-
+	
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		processRequest(request, response);
 	}
