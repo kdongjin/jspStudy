@@ -9,6 +9,13 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  
+  <context-param>
+    <param-name>name</param-name>
+    <param-value>dong jin</param-value>
+  </context-param>
+  
+  
   <servlet>
     <servlet-name>visitInsert</servlet-name>
     <servlet-class>co.kh.dev.bbs.VisitInsert</servlet-class>

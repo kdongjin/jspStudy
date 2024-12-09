@@ -17,7 +17,8 @@
 	if (session == null || session.getAttribute("id") == null) {
 	%>
 	<!-- 세션이 없거나, id 속성이 없으면 로그인 폼을 출력 -->
-	<form method="post" action="login_check.jsp">
+	<form method="post" action="<%= request.getContextPath()%>/login/login_check.jsp">
+	
 		<table border="1" width="300" id="my_table">
 			<tr>
 				<th width="100">아이디</th>
