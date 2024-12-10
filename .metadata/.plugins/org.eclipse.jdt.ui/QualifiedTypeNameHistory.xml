@@ -7,4 +7,5 @@
     <fullyQualifiedTypeName name="co.kh.dev.account.model.AccountDAO"/>
     <fullyQualifiedTypeName name="co.kh.dev.account.model.AccountVO"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="co.kh.dev.signup.model.SignupVO"/>
 </qualifiedTypeNameHistroy>
