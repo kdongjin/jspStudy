@@ -2,10 +2,16 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="co.kh.dev.common.DBUtility"/>
     <fullyQualifiedTypeName name="co.kh.dev.account.model.AccountDAO"/>
     <fullyQualifiedTypeName name="co.kh.dev.account.model.AccountVO"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="co.kh.dev.signup.model.SignupVO"/>
+    <fullyQualifiedTypeName name="co.kh.dev.tempmember.model.TempMemberVO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="co.kh.dev.common.ConnectionPool"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="javax.naming.Context"/>
+    <fullyQualifiedTypeName name="co.kh.dev.common.DBUtility"/>
+    <fullyQualifiedTypeName name="co.kh.dev.memberone.model.ZipCodeVO"/>
 </qualifiedTypeNameHistroy>
