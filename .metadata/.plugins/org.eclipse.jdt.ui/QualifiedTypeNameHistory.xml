@@ -14,4 +14,7 @@
     <fullyQualifiedTypeName name="javax.naming.Context"/>
     <fullyQualifiedTypeName name="co.kh.dev.common.DBUtility"/>
     <fullyQualifiedTypeName name="co.kh.dev.memberone.model.ZipCodeVO"/>
+    <fullyQualifiedTypeName name="co.kh.dev.memberone.model.StudentVO"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="co.kh.dev.boardone.model.BoardVO"/>
 </qualifiedTypeNameHistroy>
