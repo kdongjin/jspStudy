@@ -9,13 +9,10 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  
   <context-param>
     <param-name>name</param-name>
     <param-value>dong jin</param-value>
   </context-param>
-  
-  
   <servlet>
     <servlet-name>visitInsert</servlet-name>
     <servlet-class>co.kh.dev.bbs.VisitInsert</servlet-class>
@@ -48,18 +45,10 @@
     <servlet-name>hello</servlet-name>
     <url-pattern>/hello.do</url-pattern>
   </servlet-mapping>
-  <!-- 에러처리코드 -->
-  
- <!-- <error-page>
-  	<error-code>500</error-code>
-  	<location>/error/error500.jsp</location>
-  </error-page> -->
-  <!-- connection Pool 10개 만들어줘 -->
   <resource-ref>
-  	<description>ConnectionPool</description>
-  	<res-ref-name>jdbc/myOracle</res-ref-name>
-  	<res-type>javax.sql.DataSource</res-type>
-  	<res-auth>Container</res-auth>
- </resource-ref>
-
+    <description>ConnectionPool</description>
+    <res-ref-name>jdbc/myOracle</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
 </web-app>
