@@ -3,7 +3,12 @@ package com.kh.dev.student.control;
 import com.kh.dev.student.action.Action;
 import com.kh.dev.student.action.IdCheckAction;
 import com.kh.dev.student.action.IndexAction;
+import com.kh.dev.student.action.LoginFormAction;
+import com.kh.dev.student.action.LoginProcAction;
+import com.kh.dev.student.action.LogoutAction;
+import com.kh.dev.student.action.ModifyFormAction;
 import com.kh.dev.student.action.RegFormAction;
+import com.kh.dev.student.action.RegProcAction;
 import com.kh.dev.student.action.ZipCheckAction;
 
 //싱글톤방식
@@ -34,6 +39,24 @@ public class ActionFactory {
 			break;
 		case "/zipCheck.do":
 			action = new ZipCheckAction();
+			break;
+		case "/regProc.do":
+			action = new RegProcAction();
+			break;
+		case "/login.do":
+			action = new LoginFormAction();
+			break;
+		case "/loginProc.do":
+			action = new LoginProcAction();
+			break;
+		case "/logout.do":
+			action = new LogoutAction();
+			break;
+		case "/modifyForm.do":
+			action = new ModifyFormAction();
+			break;
+		case "/modifyProc.do":
+			action = new ModifyFormAction();
 			break;
 		default:
 			action = new IndexAction();

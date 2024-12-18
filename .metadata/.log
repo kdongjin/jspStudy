@@ -5642,3 +5642,12 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.lsp4e 1 0 2024-12-18 15:43:05.589
 !MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-18 16:45:53.489
+!MESSAGE [Info]	ESLint server running in node v20.16.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-18 16:45:53.539
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.5.4 from path "C:\dev\eclipse\plugins\org.eclipse.wildwebdeveloper_1.2.3.202408270415\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2024-12-18 16:45:53.542
+!MESSAGE [Info]	Typescript Server version info: {version=5.5.4, source=user-setting}
