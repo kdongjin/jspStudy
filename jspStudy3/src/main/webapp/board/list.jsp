@@ -4,6 +4,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ include file="view/color.jsp"%>
 <%
+//보여줄 리스트 해당
 int currentPage = (Integer)request.getAttribute("currentPage");
 int startRow = (Integer)request.getAttribute("startRow");
 int endRow= (Integer)request.getAttribute("endRow");
@@ -25,7 +26,7 @@ SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 <table width="700">
   <tr>
     <td align="right" bgcolor="<%=value_c%>">
-    <a href="writeForm.jsp">글쓰기</a>
+    <a href="writeForm.do">글쓰기</a>
     </td>
   </tr>
 </table>
@@ -55,7 +56,7 @@ SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     <td align="center"  width="50" > <%= number--%></td>
     <td  width="250" >
     <!-- 수정 <5> -->
-    <a href="content.jsp?num=<%=article.getNum()%>&pageNum=1">
+    <a href="content.do?num=<%=article.getNum()%>&pageNum=1">
 	 <!-- 수정<6> -->
 <%
 			//6. depth 값에 따라서 5배수 증가를 해서 화면에 보여줘야된다.
@@ -87,29 +88,30 @@ SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 <br><br>
 <!-- 수정 <7> -->
 <div align="center">
-<%    if (count > 0) {
+<% 	//페이지번호
+    if (count > 0) {
       int pageBlock = 3;    //보여줄페이지
       int imsi = count % pageSize == 0 ? 0 : 1;
       int pageCount = count / pageSize + imsi;
       int startPage = (int)((currentPage-1)/pageBlock)*pageBlock + 1;
       int endPage = startPage + pageBlock - 1;
       if (endPage > pageCount) endPage = pageCount;  
-      if (startPage > pageBlock) {    %>
-      <a href="list.jsp?pageNum=<%=startPage-pageBlock%>">[이전]</a>
-
+      if (startPage > pageBlock) {    
+%>
+      <a href="list.do?pageNum=<%=startPage-pageBlock%>">[이전]</a>
 <%    }
       for (int i = startPage ; i <= endPage ; i++) {
     	  if(currentPage == i){
 %>
-    		  <a href="list.jsp?pageNum=<%= i %>">[{<%= i %>}]</a>
+    		  <a href="list.do?pageNum=<%= i %>">[{<%= i %>}]</a>
 <%    	}else{ %>
-    		   <a href="list.jsp?pageNum=<%= i %>">[<%= i %>]</a>
+    		   <a href="list.do?pageNum=<%= i %>">[<%= i %>]</a>
 <%  	  } %>
        
 <%
       }
       if (endPage < pageCount) {  %>
-      <a href="list.jsp?pageNum=<%=startPage+pageBlock%>">[다음]</a>
+      <a href="list.do?pageNum=<%=startPage+pageBlock%>">[다음]</a>
 <%
         }
     }

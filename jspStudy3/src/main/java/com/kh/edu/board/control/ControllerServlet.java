@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.kh.edu.board.action.CommandAction;
 
-@WebServlet("*.do")
+
 public class ControllerServlet extends HttpServlet {
 	// 1. board/list.do=com.kh.edu.board.action.ListAction
 	// 키값: "board/list.do" 객체: Class.Load(com.kh.edu.board.action.ListAction);
