@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="co.kh.dev.account.model.AccountDAO"/>
     <fullyQualifiedTypeName name="co.kh.dev.account.model.AccountVO"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="co.kh.dev.signup.model.SignupVO"/>
     <fullyQualifiedTypeName name="co.kh.dev.tempmember.model.TempMemberVO"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="co.kh.dev.common.ConnectionPool"/>
     <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
@@ -17,4 +15,29 @@
     <fullyQualifiedTypeName name="co.kh.dev.memberone.model.StudentVO"/>
     <fullyQualifiedTypeName name="java.sql.Timestamp"/>
     <fullyQualifiedTypeName name="co.kh.dev.boardone.model.BoardVO"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="co.kh.dev.mvc.action.IndexAction"/>
+    <fullyQualifiedTypeName name="co.kh.dev.mvc.control.ActionFactory"/>
+    <fullyQualifiedTypeName name="co.kh.dev.mvc.action.Action"/>
+    <fullyQualifiedTypeName name="co.kh.dev.mvc.control.ActionForward"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.control.ActionForward"/>
+    <fullyQualifiedTypeName name="com.kh.dev.common.ConnectionPool"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.IndexAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.RegFormAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.IdCheckAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.Action"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.model.StudentDAO"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CopyOnWriteArrayList"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.model.ZipCodeVO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.ZipCheckAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.RegProcAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.LoginFormAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.LoginProcAction"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.LogoutAction"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.model.StudentVO"/>
+    <fullyQualifiedTypeName name="com.kh.dev.student.action.ModifyFormAction"/>
 </qualifiedTypeNameHistroy>

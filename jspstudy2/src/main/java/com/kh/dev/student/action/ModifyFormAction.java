@@ -17,19 +17,11 @@ public class ModifyFormAction implements Action {
 		request.setCharacterEncoding("UTF-8");
 		HttpSession session = request.getSession();
 		String id = (String) session.getAttribute("id");
+		StudentVO svo = new StudentVO();
+		svo.setId(id);
 		StudentDAO dao = StudentDAO.getInstance();
-		StudentVO vo = new StudentVO(id, 
-			request.getParameter("pass"),
-			request.getParameter("name"), 
-			request.getParameter("phone1"),
-			request.getParameter("phone2"), 
-			request.getParameter("phone3"),
-			request.getParameter("email"), 
-			request.getParameter("zipcode"),
-			request.getParameter("address1"),
-			request.getParameter("address2"));
-		boolean flag = dao.updateDB(vo);
-		request.setAttribute("flag", flag);
-		return new ActionForward("/mvcmem/modifyProc.jsp", false);
+		svo = dao.selectOneDB(svo);
+		request.setAttribute("svo", svo);
+		return new ActionForward("/mvcmem/modifyForm.jsp",false);
 	}
 }
