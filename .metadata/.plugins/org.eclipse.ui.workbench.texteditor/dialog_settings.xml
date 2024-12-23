@@ -3,6 +3,11 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="true"/>
 	<list key="searchhistory">
+		<item value="DELETE_SQL"/>
+		<item value="UPDATE_SQL"/>
+		<item value="SELECT_ONE_SQL"/>
+		<item value="INSERT_SQL"/>
+		<item value="SELECT_START_END_SQL"/>
 		<item value="TempMemberVO"/>
 		<item value="SignupVO"/>
 		<item value="signupVO"/>
@@ -25,8 +30,8 @@
 	<section name="org.eclipse.jst.jsp.ui.internal.preferences.ui.JSPTemplatePreferencePage$JSPEditTemplateDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="260"/>
 		<item key="DIALOG_Y_ORIGIN" value="231"/>
-		<item key="DIALOG_WIDTH" value="610"/>
-		<item key="DIALOG_HEIGHT" value="434"/>
+		<item key="DIALOG_WIDTH" value="1037"/>
+		<item key="DIALOG_HEIGHT" value="646"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
